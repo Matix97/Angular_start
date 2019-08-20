@@ -4,7 +4,7 @@ import {Component, Input, Output,EventEmitter} from '@angular/core'
     selector:"dog-details",
     template:`
         <h2>{{name}} - {{color}}</h2>
-        <input (change)="handleNameChange($event)" type="text" />
+        <input (input)="handleNameChange($event)" type="text" />
         <button class="btn btn-waves" (click)="handleClick()">Bark</button>
     `
 })
