@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core'
+import {Component, Input, Output,EventEmitter} from '@angular/core'
 
 @Component({
     selector:"dog-details",
@@ -11,7 +11,9 @@ export class DogDetailsComponent{
     @Input()name:string
     @Input()color:string
 
+    @Output() bark = new EventEmitter<{}>()
     handleClick(){
         console.log("Click")
+        this.bark.emit({})
     }
 }

@@ -11,4 +11,9 @@ export class AppComponent {
   catGifAlt = "Image with cat";
   dog1 = {name:"Rexio", color:"red"};
   dog2 = "Fado";
+
+  doBark(name:string)
+  {
+    console.log(`${name} has barked.`)
+  }
 }
