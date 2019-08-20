@@ -1,4 +1,4 @@
-import {Component} from '@angular/core'
+import {Component, Input} from '@angular/core'
 
 @Component({
     selector:"dog-details",
@@ -7,5 +7,5 @@ import {Component} from '@angular/core'
     `
 })
 export class DogDetailsComponent{
-    name="Mat"
+    @Input()name:string
 }
