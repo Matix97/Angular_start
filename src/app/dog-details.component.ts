@@ -4,7 +4,7 @@ import {Component, Input} from '@angular/core'
     selector:"dog-details",
     template:`
         <h2>{{name}} - {{color}}</h2>
-        <button (click)="handleClick()">Bark</button>
+        <button class="btn btn-waves" (click)="handleClick()">Bark</button>
     `
 })
 export class DogDetailsComponent{
