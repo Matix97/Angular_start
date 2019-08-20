@@ -16,4 +16,8 @@ export class AppComponent {
   {
     console.log(`${name} has barked.`)
   }
+  changeDog1(name)
+  {
+    this.dog1.name=name;
+  }
 }
