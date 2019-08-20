@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'mój początek';
   catGif = "https://miastodzieci.pl/wp-content/uploads/2010/06/puppies-2243686_1920.jpg";
   catGifAlt = "Image with cat";
-  dog1 = "Rexio";
+  dog1 = {name:"Rexio", color:"red"};
   dog2 = "Fado";
 }
