@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              
+              "src/styles.css" ,
               "../my-first-project/node_modules/materialize-css/dist/css/materialize.min.css"
             ],
             "scripts": []
